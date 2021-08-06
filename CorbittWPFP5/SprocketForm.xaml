@@ -1,0 +1,24 @@
+﻿<Window x:Class="CorbittWPFP5.SprocketForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CorbittWPFP5"
+        mc:Ignorable="d"
+        Title="SprocketForm" Height="331.559" Width="376.027">
+    <Grid>
+        <Label Content="Sprocket Form" HorizontalAlignment="Left" Margin="35,21,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Item ID" HorizontalAlignment="Left" Margin="35,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,-0.359"/>
+        <Label Content="Item Type" HorizontalAlignment="Left" Margin="35,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,-0.359"/>
+        <Label Content="Number of Teeth" HorizontalAlignment="Left" Margin="35,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,-0.359"/>
+        <Label Content="Number of Items" HorizontalAlignment="Left" Margin="35,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,-0.359"/>
+        <TextBox x:Name="txbItemID" HorizontalAlignment="Left" Height="23" Margin="194,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" SpellCheck.IsEnabled="True"/>
+        <TextBox x:Name="txbNumTeeth" HorizontalAlignment="Left" Height="23" Margin="194,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbNumItems" HorizontalAlignment="Left" Height="23" Margin="194,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="80,225,0,0" VerticalAlignment="Top" Width="75" Click="btnSubmit_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="222,225,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.196,-0.058" Click="btnCancel_Click"/>
+        <ComboBox x:Name="cbMaterials" HorizontalAlignment="Left" Margin="194,92,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbError" HorizontalAlignment="Left" Height="23" Margin="35,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
